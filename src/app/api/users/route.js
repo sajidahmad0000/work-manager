@@ -1,4 +1,5 @@
 import { connectDB } from "@/app/helper/db";
+import { Task } from "@/app/models/task.models";
 import { User } from "@/app/models/user.models";
 import { NextResponse } from "next/server";
 
